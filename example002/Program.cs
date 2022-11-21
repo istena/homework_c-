@@ -7,7 +7,9 @@ if (a>b){
     Console.Write("Максимально число из двух ");
     Console.Write(a);
 }
-else {
+else if(b>a){
     Console.Write("Максимально число из двух ");
     Console.Write(b);
 }
+else 
+Console.Write("Оба числа равны ");
